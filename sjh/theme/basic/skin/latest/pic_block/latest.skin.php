@@ -9,7 +9,8 @@ $thumb_width = 700;
 $thumb_height = 500;
 $list_count = (is_array($list) && $list) ? count($list) : 0;
 ?>
-
+메인브런치가 작업을 했습니다. 다른 제안을 하고싶습니다.
+이제 후임이 여기다 새롭게 작업했습니다.
 
     <?php
     for ($i=0; $i<$list_count; $i++) {
