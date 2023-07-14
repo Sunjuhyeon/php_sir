@@ -1,0 +1,138 @@
+body {
+    font-family: '', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Orbit', sans-serif !important;
+}
+
+input,
+button {
+    font-family: 'Orbit', sans-serif !important;
+}
+
+.hd_sch_wr,
+#aside,
+#visit,
+#ft_wr .notice {
+    display: none;
+}
+
+#logo {
+    padding: 0;
+}
+
+#logo a img {
+    width: 12rem;
+}
+
+#tnb,
+#hd {
+    background-color: white;
+}
+
+#tnb {
+    border-bottom: none;
+}
+
+#gnb #gnb_1dul {
+    border-bottom: none;
+}
+
+#hd_wrapper {
+    height: auto;
+}
+
+.hd_login {
+    z-index: 1000;
+    display: flex;
+    writing-mode: horizontal-tb;
+    white-space: nowrap;
+    top: 0;
+    font-size: 0.75rem;
+    left: 1050px;
+}
+
+#hd_define li.active a {
+    color: #919191;
+}
+
+.hd_login a {
+    color: #919191;
+}
+
+#gnb {
+    float: right;
+}
+
+#hd_wrapper {
+    width: auto;
+    float: left;
+}
+
+#gnb .gnb_wrap {
+    width: auto;
+}
+
+#gnb .gnb_mnal {
+    float: none;
+}
+
+#gnb .gnb_1dli {
+    float: none;
+}
+
+#logo {
+    float: none;
+}
+
+#gnb .gnb_menu_btn {
+    background-color: #333;
+}
+
+#gnb .gnb_1da:hover {
+    text-decoration: none;
+}
+
+@media(min-width:767px) {
+    #gnb .gnb_menu_btn {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    #gnb .gnb_1da {
+        display: none;
+    }
+}
+
+#container{
+    width: 1200px;
+}
+
+.lt_more {
+    white-space: nowrap;
+}
+
+#ft_wr {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ft_info {
+    white-space: nowrap;
+}
+
+i.fa+.sound_only {
+    position: unset;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    line-height: 1;
+}
